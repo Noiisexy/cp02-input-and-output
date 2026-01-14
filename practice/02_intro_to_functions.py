@@ -29,7 +29,7 @@ I recommend starting to use the debugger now to get familiar with it.
 # 1. CALLING THE PRINT FUNCTION
 # Create a variable to hold your name. Call the print function using your name
 # as an argument (the input). Call the type function as well.
-
+print("Hello there ppl")
 
 # 2. CALL THE TYPE FUNCTION
 # Call the type function without printing it. What happens? Many functions
@@ -37,7 +37,9 @@ I recommend starting to use the debugger now to get familiar with it.
 # value of the type() function in a new variable. And print that out.
 # Then try just printing out the result of the type function without storing
 # it in a new variable.
-
+age=92
+new_variable = type(19+44)
+print(new_variable)
 
 
 '''
@@ -51,7 +53,9 @@ Each argument needs to be separated by a comma
 # 3. USING MULTIPLE ARGUMENTS (INPUTS) WITH PRINT
 # Create another string variable and print it out. Try adding some more text
 # to the print function without storing it in a variable first.
-
+example_1 = "Hello"
+example_2 = "BB"
+print(example_1 , example_2, sep ="___-___--_____")
 
 '''
 SPECIFYING PARAMETERS
@@ -90,3 +94,5 @@ methods later on in the semester.
 # Add the .upper() function onto your name variable and print it out. Try doing
 # the same thing with the .lower() function
 
+string_example = "Prof Steffen"
+print(string_example.upper())
